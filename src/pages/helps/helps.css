@@ -1,0 +1,78 @@
+.test {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.helps {
+    height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+}
+
+
+.helps h3 i{
+    display: block;
+    align-items: center;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: hsl(258, 24%, 27%);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.element {
+    margin-bottom: 30px;
+}
+
+.element:hover {
+    background-color: hsl(258, 24%, 37%);
+    color: white;
+}
+/* Faq */
+.hoome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.faq {    
+    direction: rtl;
+    width: 60%;
+}
+
+.faq div {
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+
+.faq h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.faq h3 {
+    margin: 8px;
+}
+
+.faq p {
+    color: rgb(71, 61, 61);
+    margin:10px 0 10px 0;
+}
+
+.linkk {
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.linkk:hover {
+    background-color: red;
+    color: white;
+}

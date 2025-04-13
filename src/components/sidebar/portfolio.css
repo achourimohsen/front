@@ -1,0 +1,28 @@
+
+
+.portfolio-vertical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px; 
+}
+
+.vertical {
+    background-image: linear-gradient(red, rgb(104, 104, 41), black);
+    height: 150px;
+    width: 6px;
+    border-radius: 2px;
+}
+
+.portfolio {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bi {
+    font-size: 28px;
+    margin: 5px;
+    cursor: pointer;
+}

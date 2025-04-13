@@ -1,0 +1,66 @@
+.notification-dropdown {
+    position: relative;
+    margin-left: 16px;
+  }
+  
+  .icon-wrapper {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 36px;
+    width: 260px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+  }
+  
+  .items {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .notif-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .notif-item.unread {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .empty {
+    padding: 10px;
+    text-align: center;
+    color: #999;
+  }
+  
